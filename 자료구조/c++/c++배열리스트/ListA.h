@@ -5,16 +5,16 @@ const int MAX = 100;
 
 class listClass {
 public:
-    listClass();                             // ê¸°ë³¸ ìƒì„±ì
-    listClass(const listClass& L);           // ë³µì‚¬ ìƒì„±ì
-    ~listClass();                            // ì†Œë©¸ì
+    listClass();                             // ±âº» »ı¼ºÀÚ
+    listClass(const listClass& L);           // º¹»ç »ı¼ºÀÚ
+    ~listClass();                            // ¼Ò¸êÀÚ
 
-    void insert(int Position, int item);     // ì‚½ì…
-    void Delete(int Position);               // ì‚­ì œ
-    void Retrieve(int Position, int& item);  // ì¡°íšŒ
-    bool IsEmpty();                          // ë¹„ì–´ ìˆëŠ”ì§€ í™•ì¸
-    int Length();                            // ê¸¸ì´ ë°˜í™˜
-    void print();                            // ì „ì²´ ì¶œë ¥
+    void insert(int Position, int item);     // »ğÀÔ
+    void Delete(int Position);               // »èÁ¦
+    void Retrieve(int Position, int& item);  // Á¶È¸
+    bool IsEmpty();                          // ºñ¾î ÀÖ´ÂÁö È®ÀÎ
+    int Length();                            // ±æÀÌ ¹İÈ¯
+    void print();                            // ÀüÃ¼ Ãâ·Â
 
 private:
     int Count;
